@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YachtJet</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- external css -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="main-nav">
+        <a class="main-logo" href="./index.html">yachtjet</a>
+        <nav>
+          <ul class="navbar-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Yachts</a></li>
+            <li><a href="#">Reviews</a></li>
+          </ul>
+        </nav>
+
+        <ul class="social-links">
+          <li>
+            <a href="#">
+              <svg class="svg-icon" width="24" height="24">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg class="svg-icon" width="24" height="24">
+                <use href="./images/icons.svg#youtube"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg class="svg-icon" width="24" height="24">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <button class="mobile-btn" type="button">
+          <svg class="svg-icon" width="28" height="28">
+            <use href="./images/icons.svg#mobile-burger"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section back-image">
+        <h1 class="hero-title">
+          Explore the High Seas with Our Luxury Yacht Rentals
+        </h1>
+        <p class="hero-paragraph">
+          Experience the freedom and luxury of yachting on the open seas. Choose
+          from our top-of-the-line yachts and embark on an unforgettable journey
+          surrounded by breathtaking views and state-of-the-art amenities.
+        </p>
+        <a class="yacht-rental" href="#">Yacht rental</a>
+      </section>
+
+      <section class="benefits">
+        <div class="benefits-container">
+          <h2 class="benefits-title">
+            YachtJet fleet is here to take you on the ultimate adventure
+          </h2>
+
+          <div class="benefits-container-paragraph">
+            <p class="benefits-one">
+              From spacious decks to state-of-the-art technology, our yachts are
+              designed to provide the perfect blend of luxury and functionality.
+            </p>
+            <p class="benefits-two">
+              Take a look at our selection below and choose the yacht that
+              matches your needs and preferences.No matter which yacht you
+              choose, our experienced crew will ensure that your journey is
+              smooth and enjoyable. Book now and get ready for an unforgettable
+              adventure on the high seas.
+            </p>
+          </div>
+        </div>
+
+        <img
+          class="benefits-img"
+          srcset="
+            ./images/yachts/benefits-yacht.jpg   1x,
+            ./images/yachts/benefits-yacht@2.jpg
+          "
+          src="./images/yachts/benefits-yacht.jpg"
+          alt="Yacht in benefits"
+        />
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

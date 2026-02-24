@@ -1,0 +1,90 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../images/hero/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 260px;
+  padding-bottom: 243px;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  max-width: 335px;
+  padding-bottom: 24px;
+}
+
+.hero-paragraph {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.7;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.7);
+  max-width: 335px;
+  padding-bottom: 38px;
+}
+
+.yacht-rental {
+  border-radius: 15px;
+  width: 141px;
+  height: 46px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  background-color: #1b414b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-section {
+    padding-top: 280px;
+    padding-bottom: 215px;
+  }
+
+  .hero-title {
+    font-size: 70px;
+    max-width: 704px;
+  }
+
+  .hero-paragraph {
+    font-size: 16px;
+    line-height: 1.4;
+    max-width: 597px;
+  }
+
+  .yacht-rental {
+    padding: 16px 40px;
+    width: 179px;
+    height: 52px;
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-section {
+    padding-top: 235px;
+    padding-bottom: 180px;
+  }
+
+  .hero-title {
+    max-width: 1001px;
+    margin-top: 235px;
+  }
+
+  .yacht-rental {
+    margin-bottom: 180px;
+  }
+}

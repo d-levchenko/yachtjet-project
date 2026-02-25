@@ -116,6 +116,15 @@
   }
 
   .yacht-rental-link {
-    width: 179px;
+    max-width: 179px;
+    transition:
+      color 300ms ease-in-out,
+      background-color 300ms ease-in-out;
+  }
+
+  .yacht-rental-link:hover,
+  .yacht-rental-link:focus {
+    color: #1b414b;
+    background-color: #fbfbfb;
   }
 }

@@ -1,0 +1,127 @@
+.section-reviews {
+  padding: 80px 0;
+}
+
+.container-review {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.reviews-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin-bottom: 25px;
+}
+
+.reviews-title-description {
+  font-size: 12px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  opacity: 0.4;
+  margin-bottom: 40px;
+}
+
+.rev-cont {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.review-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 335px;
+}
+.reviews-container {
+  background: #fbfbfb;
+  padding: 32px 8px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 376px;
+}
+
+.review-img {
+  margin-bottom: 24px;
+}
+
+.review-list-item-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  margin-bottom: 8px;
+}
+
+.reviews-list-item-title-description {
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+}
+
+@media screen and (min-width: 768px) {
+  .section-reviews {
+    padding: 150px 0;
+  }
+
+  .container-review {
+    padding: 0 32px;
+  }
+
+  .reviews-title {
+    font-size: 48px;
+  }
+
+  .reviews-title-description {
+    font-size: 14px;
+    margin-bottom: 75px;
+  }
+
+  .rev-cont {
+    padding: 0 32px;
+  }
+
+  .review-list {
+    flex-direction: row;
+    max-width: 100%;
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container-review {
+    padding: 0 163px;
+  }
+
+  .container-review {
+    padding: 0 32px;
+  }
+
+  .rev-cont {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .rev-cont {
+    padding: 0 100px;
+  }
+}

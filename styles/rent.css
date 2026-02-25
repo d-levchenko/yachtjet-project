@@ -122,6 +122,15 @@
   .rent-send-btn {
     width: 194px;
     height: 56px;
+    transition:
+      color 300ms ease-in-out,
+      background-color 300ms ease-in-out;
+  }
+
+  .rent-send-btn:hover,
+  .rent-send-btn:focus {
+    color: #1b414b;
+    background-color: #fbfbfb;
   }
 }
 

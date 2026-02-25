@@ -70,6 +70,15 @@
     height: 52px;
     font-size: 18px;
     line-height: 1.1;
+    transition:
+      color 300ms ease-in-out,
+      background-color 250ms ease-in-out;
+  }
+
+  .yacht-rental:hover,
+  .yacht-rental:focus {
+    color: #1b414b;
+    background-color: #fbfbfb;
   }
 }
 
@@ -82,9 +91,5 @@
   .hero-title {
     max-width: 1001px;
     margin-top: 235px;
-  }
-
-  .yacht-rental {
-    margin-bottom: 180px;
   }
 }

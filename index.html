@@ -32,9 +32,9 @@
           <a class="main-logo" href="./index.html">yachtjet</a>
           <nav>
             <ul class="navbar-links">
-              <li><a class="social-link-item" href="#">About</a></li>
-              <li><a class="social-link-item" href="#">Yachts</a></li>
-              <li><a class="social-link-item" href="#">Reviews</a></li>
+              <li><a class="social-link-item" href="#section-benefits">About</a></li>
+              <li><a class="social-link-item" href="#section-rent">Yachts</a></li>
+              <li><a class="social-link-item" href="#section-reviews">Reviews</a></li>
             </ul>
           </nav>
 
@@ -69,22 +69,66 @@
           </button>
         </div>
       </div>
+
+      <div class="mobile-modal-wrapper">
+        <div class="mobile-modal-window">
+          <div class="mobile-nav-wrapper">
+            <a class="mobile-logo" href="./index.html">yachtjet</a>
+
+            <button class="mobile-close-btn" type="button">
+              <svg class="svg-icon-mobile" width="28" height="28">
+                <use href="./images/icons.svg#mobile-close"></use>
+              </svg>
+            </button>
+          </div>
+
+          <ul class="mobile-links">
+            <li><a class="mobile-link-item" href="#section-benefits">About</a></li>
+            <li><a class="mobile-link-item" href="#section-rent">Yachts</a></li>
+            <li><a class="mobile-link-item" href="#section-reviews">Reviews</a></li>
+          </ul>
+
+          <ul class="mobile-icon-links">
+            <li class="mobile-list-item">
+              <a class="mobile-icon-link" href="#">
+                <svg class="svg-icon-mobile" width="24" height="24">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-list-item">
+              <a class="mobile-icon-link" href="#">
+                <svg class="svg-icon-mobile" width="24" height="24">
+                  <use href="./images/icons.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-list-item">
+              <a class="mobile-icon-link" href="#">
+                <svg class="svg-icon-mobile" width="24" height="24">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <main>
       <section class="hero-section">
-        <!-- <div class="container"> -->
-        <h1 class="hero-title">Explore the High Seas with Our Luxury Yacht Rentals</h1>
-        <p class="hero-paragraph">
-          Experience the freedom and luxury of yachting on the open seas. Choose from our
-          top-of-the-line yachts and embark on an unforgettable journey surrounded by breathtaking
-          views and state-of-the-art amenities.
-        </p>
-        <a class="yacht-rental" href="#">Yacht rental</a>
-        <!-- </div> -->
+        <div class="container">
+          <h1 class="hero-title">Explore the High Seas with Our Luxury Yacht Rentals</h1>
+          <p class="hero-paragraph">
+            Experience the freedom and luxury of yachting on the open seas. Choose from our
+            top-of-the-line yachts and embark on an unforgettable journey surrounded by breathtaking
+            views and state-of-the-art amenities.
+          </p>
+          <a class="yacht-rental" href="#">Yacht rental</a>
+        </div>
       </section>
 
-      <section class="benefits">
+      <section class="benefits" id="section-benefits">
         <div class="container">
           <div class="benefits-container">
             <h2 class="benefits-title">
@@ -135,6 +179,9 @@
 
               <div class="container-choose-table">
                 <ul class="choose-list-left-part">
+                  <!-- <div class="choose-list-wrapper">
+
+                  </div> -->
                   <li>
                     <p class="choose-list-paragraph choose-list-left-part">LENGTH</p>
                   </li>
@@ -277,7 +324,7 @@
             </li>
           </ul>
 
-          <a class="yacht-rental-link" href="#">Yacht rental</a>
+          <a class="yacht-rental-link" href="#section-rent">Yacht rental</a>
         </div>
       </section>
 
@@ -322,7 +369,7 @@
         </div>
       </section>
 
-      <section class="section-rent">
+      <section class="section-rent" id="section-rent">
         <div class="container align-items">
           <div>
             <h2 class="rent-title">Rent a yacht now</h2>
@@ -388,7 +435,7 @@
         </div>
       </section>
 
-      <section class="section-reviews">
+      <section class="section-reviews" id="section-reviews">
         <div class="container-review">
           <h2 class="reviews-title">
             YachtJet take pride in providing the best possible service and experience to our

@@ -7,8 +7,4 @@
 @import './rent.css';
 @import './reviews.css';
 @import './footer.css';
-
-/* temporary style */
-.hidden {
-  display: none;
-}
+@import './mobile.css';

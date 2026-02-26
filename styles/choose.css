@@ -29,6 +29,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #040306;
+  margin: 0 16px;
+  border-top: 1px solid rgb(4 3 6 / 0.1);
 }
 
 .choose-list {
@@ -52,11 +54,9 @@
   letter-spacing: -0.04em;
   text-transform: uppercase;
   color: #1b414b;
-  margin-top: 32px;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid rgb(4 3 6 / 0.1);
-  padding-bottom: 16px;
+  padding: 32px 16px 16px;
 }
 
 .short-title {

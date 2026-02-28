@@ -2,6 +2,7 @@
   padding: 40px 30px 20px;
   border-radius: 24px 24px 0 0;
   background: #1b414b;
+  margin: 0 10px;
 }
 
 .footer-nav-container {
@@ -101,6 +102,7 @@
 @media screen and (min-width: 768px) {
   .footer-container {
     padding: 50px 48px 20px;
+    margin: 0 16px;
   }
 
   .footer-nav-container {
@@ -126,8 +128,9 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .footer-container {
     padding: 50px 75px 20px;
+    margin: 0 25px;
   }
 }

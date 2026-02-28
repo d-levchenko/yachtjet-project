@@ -54,11 +54,7 @@
 
 .rent-input:focus {
   border-color: rgba(251, 251, 251, 0.5);
-}
-
-.rent-comment {
-  margin-bottom: 16px;
-}
+} 
 
 .rent-comment-input {
   width: 100%;
@@ -134,7 +130,7 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .align-items {
     display: flex;
     flex-direction: row-reverse;

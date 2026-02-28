@@ -53,4 +53,18 @@ button {
 
 .container {
   padding: 0 20px;
+  max-width: 335px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width:768px) {
+  .container {
+    max-width: 704px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .container {
+    max-width: 1180px;
+  }
 }
